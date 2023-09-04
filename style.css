@@ -1,0 +1,44 @@
+
+
+.nav-container{
+    display: flex;
+    justify-content: space-between;
+   padding-left: 150px;
+    padding-right: 150px;
+    background-color: rgb(191, 138, 240);
+    border-radius: 5px;
+    color: aliceblue;
+}
+
+.nav-logo-container{
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    width: 50%;
+}
+
+
+.nav-logo-container img{
+    width: 30px;
+    height: 30px;
+    border-radius: 10px;
+   
+
+}
+.nav-item-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 50%;
+}
+.nav-item-container a{
+text-decoration: none;
+color: aliceblue;
+}
+.btn-primary{
+    color: rgb(10, 10, 10);
+    background-color: pink;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+}
